@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+/* scrollbar start */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #0d56a2;
+}
+/* scrollbar end */
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* =========================================== */
+
+/* common css start */
+.main_bg {
+  background-color: #F9F7F7;
+}
+.main_color {
+  color: #0c117b;
+}
+/* common css end */
+
+/* =========================================== */
+
+
+
+/* all page css start */
+
+
+
+/* all page css end */
+
+
+
+/* top to start */
+.top_to i {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    /*border-radius: 4px 4px 0px 0px;*/
+    /*background-color: #4bcaff;*/
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 999999;
+    cursor: pointer;
+    display: none;
+}
+/* top to end */
+
+/* =========================================== */
+
+
+/* for responsive */
+@media (max-width: 575.98px) {
+    
+}
+@media (max-width: 320px) {
+    
+}
+
+@media (min-width: 576px) {
+    
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+@media (min-width: 769px) {
+    
+}
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+}
+
+@media (min-width: 1200px) {
+  
+}
