@@ -12,7 +12,9 @@
 </section>
 
 <!-- ===========================================  -->
-
+<?php
+echo "hello";
+?>
 
 
 <?php require_once "inc/footer.php"; ?>
