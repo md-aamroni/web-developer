@@ -1,0 +1,397 @@
+
+/* ====================== Navbar CSS ======================= */
+
+#navbar{
+	background-color: #212121;
+}
+.nav_logo{
+	max-height: 65px;
+}
+#navbarmain .nav-link{
+	color: white!important;
+}
+#navbarmain .nav-link:hover{
+	color: #d82828!important;
+}
+.navbar-toggler{
+	color: white;
+	border: 2px solid white;
+}
+#navbar_btn{
+	background-color: #d82828!important;
+	border-radius: 0px;
+	font-weight: bold;
+	border: 2px solid #d82828;
+	transition: .5s;
+}
+#navbar_btn:hover{
+	background-color: transparent!important;
+}
+
+.navigation .dropdown:hover > .dropdown-menu{
+	background-color: #212121;
+}
+.navigation .dropdown-item{
+	color: white;
+}
+.navigation .dropdown-submenu.active > .dropdown-toggle, .navigation .dropdown-submenu:hover > .dropdown-item, .navigation .dropdown-item.active, .navigation .dropdown-item:hover{
+	background: #d82828;
+    color: white;
+}
+
+/* ===================== Carousel Section =========================== */
+
+
+.banner{
+	background-image: url('../images/slider/1.jpg')!important;
+}
+
+#video_col{
+	text-align: center;
+}
+#video_col img{
+	max-height: 80px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 50%;
+	border: 2px solid white;
+	transition: .5s;
+}
+#video_col img:hover{
+	transform: scale(1.3);
+}
+@media only screen and (max-width: 600px) {
+	#video_col img{
+		position: relative;
+		margin-bottom: 50px;
+	}
+	.banner .block{
+		padding-bottom: 40px;
+	}
+}
+
+
+
+/* ======================= Features CSS =========================== */
+
+#features_section{
+	background-color: #212121;
+}
+
+#features_section .card{
+	max-width: 265px;
+	max-height: 300px;
+	overflow: hidden;
+	background-color: #02010100;
+	padding: 20px 10px;
+	border: 1px solid #d82828;
+	border-radius: 0px;
+	cursor: pointer;
+	transition: .5s;
+	margin-top: 10px;
+}
+#features_section .card:nth-child(2), #features_section .card:nth-child(4) {
+	margin-top: 50px;
+}
+@media only screen and (max-width: 576px) {
+	#features_section .card:nth-child(2), #features_section .card:nth-child(4) {
+		margin-top: 10px;
+	}
+}
+#features_section .card i{
+	padding-top: 20px;
+	font-size: 50px;
+	color: #d82828;
+}
+#features_section .card h3{
+	padding-top: 20px;
+	color: white;
+}
+#features_section .card p{
+	color: white;
+}
+
+#features_section .card:hover{
+	background: linear-gradient(#02010100, #d828289e);
+}
+#features_section .card:hover h3{
+	color: #d82828;
+}
+
+
+/* ================== Service Section CSS ================== */
+
+#service_section{
+	background-image: url('../images/bg/service.png');
+	background-position: center center;
+    background-size: cover;
+	background-attachment: fixed;
+	background-color: #272626;
+}
+
+.service_check i{
+	color: #d82828;
+	font-size: 22px;
+	margin-top: 8px;
+}
+.service_check p{
+	color: #ffffff;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+
+/* =======================  About Us CSS  ======================== */
+
+
+#about_us_section{
+	background-color: #1e1e1e;
+}
+#about_us_section p{
+	color: #d3cdcd;
+}
+#about_us_section h4{
+	color: #d82828;
+}
+.about_col_icon{
+	text-align: center;
+}
+.about_row i{
+	color: #d82828;
+	font-size: 45px;
+	padding-bottom: 10px;
+}
+.about_img_1{
+	max-width: 100%;
+	width: 75%;
+}
+.about_img_2{
+	max-width: 150px;
+	float: left;
+	margin-top: -30px;
+}
+@media only screen and (max-width: 768px) {
+	.about_col_icon{
+		text-align: left;
+	}
+}
+
+
+/* ============= Choose Us Section CSS ============= */
+
+.choose_us .card{
+	background: linear-gradient(to left, #d828289e, #02010100);
+	border: 1px solid #d82828;
+	padding: 30px 20px;
+	border-radius: 0px;
+	margin-top: 30px;
+}
+.choose_us .card i{
+	font-size: 60px;
+	color: #d82828;
+}
+.choose_us .card h3{
+	color: white;
+	padding-top: 30px;
+}
+.choose_us .card p{
+	color: #d3cdcd;
+	padding-top: 10px;
+}
+.choose_us .card a{
+	color: #d82828;
+	font-weight: 700;
+}
+.choose_us .card a:hover{
+	padding-left: 10px;
+}
+
+.choose_us .card:hover{
+	background: #252424;
+}
+
+.choose_us .card.different_card{
+	background: #252424;
+}
+
+
+/* ====================== Work About CSS ========================= */
+
+.work_about_img_section{
+	width: 100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+	margin-top: 30px;
+}
+.bg_img_section{
+	min-height: 400px;
+	background: url("http://kfkit.rometheme.pro/ruby/wp-content/uploads/sites/9/2021/07/couple-working-at-night-2021-04-05-14-48-36-utc.jpg");
+	background-position: center;
+	background-size: cover;
+
+}
+.work_about_check i{
+	color: #d82828;
+	font-size: 25px;
+}
+.work_about_check h5{
+	color: white;
+	display: inline;
+}
+.work_about_btn{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding: 12px 16px;
+	border-radius: 0px;
+	background: #d82828;
+	border: 3px solid #d82828;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	transition: .5s;
+}
+.work_about_btn:hover{
+	background: transparent;
+	border: 3px solid #d82828;
+	transform: translateY(-8px);
+}
+
+
+/* ==================== Pricing Card CSS ================== */
+
+
+.pricing_card{
+	max-width: 300px;
+	padding: 20px 30px;
+	border-radius: 0px;
+	background: linear-gradient(to bottom, #d828284d, #02010100);
+	text-align: center;
+	transition: .5s;
+	margin: auto;
+}
+.pricing_card:hover{
+	background: linear-gradient(to top, #d828284d, #02010100);
+}
+.pricing_card img{
+	width: 50%;
+}
+.pricing_card h5{
+	color: white;
+	padding-top: 10px;
+}
+.pricing_card p{
+	color: #e6dede;
+}
+.pricing_card h2{
+	color: #fff;
+	display: inline-block;
+	font-size: 60px;
+	position: relative;
+}
+.pricing_card h2 sub, sup{
+	font-size: 15px;
+	color: #d82828;
+}
+.pricing_card h2 sup{
+	position: absolute;
+    top: 15px;
+    left: -15px;
+    font-size: 25px;
+}
+.pricing_card button{
+	font-weight: bold;
+	padding: 10px 35px;
+	font-size: 18px;
+	border: 2px solid #d82828;
+	background: #d82828;
+	color: white;
+	transition: .5s;
+}
+.pricing_card button:hover{
+	border: 2px solid #d82828;
+	background: transparent;
+	transform: translateY(-8px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================== Footer CSS ======================== */
+
+
+.footer-socials li a{
+	background: #d82828!important;
+	padding-top: 10px;
+}
+.footer-socials li a:hover{
+	background: white!important;
+	color: #d82828!important;
+	transform: scale(1.2);
+}
+.divider{
+	background: #d82828!important;
+}
+.widget h4{
+	color: white;
+}
+.widget .footer-menu a{
+	color: rgb(202, 185, 185)!important;
+}
+.widget .footer-menu a:hover{
+	color: #d82828!important;
+}
+.footer-contact-block i{
+	color: #fff;
+}
+.footer-contact-block span{
+	color: rgb(202, 185, 185)!important;
+}
+.footer-contact-block h4 a{
+	color: white;
+}
+.footer-contact-block h4 a:hover{
+	color: #d82828;
+}
+
+.copyright a{
+	color: white;
+}
+.copyright a:hover{
+	color: #d82828;
+}
+
+.subscribe .form-control::placeholder{
+	color: white;
+}
+.subscribe .form-control{
+	background: transparent;
+    border: 3px solid white;
+    color: white;
+}
+.subscribe .form-control:focus{
+	border: 3px solid white;
+}
+
+.subscribe .btn{
+	background-color: #d82828;
+	border-color: #d82828;
+}
+
+.backtop{
+	background: #d82828;
+}
